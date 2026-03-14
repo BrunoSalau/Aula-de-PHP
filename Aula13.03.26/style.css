@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+.menu ul{
+    display: flex;
+    padding: 20px;
+}
+.menu ul li{
+    padding-left: 10%;
+    text-decoration: none;
+}
