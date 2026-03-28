@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lanchonet</title>
 </head>
 <body>
     <form method="post">
@@ -12,10 +12,10 @@
         <br>
         <br>
         <select name="lanches" id="lanche">
-            <option value="S">X-Salada</option>
-            <option value="H">X-Hamburguer</option>
-            <option value="E">X-Egg</option>
-            <option value="R">X-Ratao</option>
+            <option value="X-Salada">X-Salada</option>
+            <option value="X-Hamburguer">X-Hamburguer</option>
+            <option value="X-Egg">X-Egg</option>
+            <option value="X-Ratao">X-Ratao</option>
         </select>
         <br>
         <br>
