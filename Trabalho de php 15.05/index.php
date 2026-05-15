@@ -41,13 +41,13 @@
 
         <?php
 
-            // Abre o arquivo produtos.txt
+           
             $arquivo = fopen("produtos.txt", "r");
 
-            // Ignora a primeira linha (cabeçalho do arquivo)
+            
             fgetcsv($arquivo, 1000, ",");
 
-            // Lê linha por linha do arquivo
+            
             while(($dados = fgetcsv($arquivo, 1000, ",")) !== FALSE){
 
                 echo "<tr>";
@@ -60,7 +60,7 @@
                 echo "</tr>";
             }
 
-            // Fecha o arquivo
+            
             fclose($arquivo);
 
         ?>
